@@ -1,0 +1,21 @@
+body {
+    font-family:  Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#requirement {
+    color: red;
+}
+#requirement_list p {
+    
+    color: blue;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+}
+#image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}

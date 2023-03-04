@@ -1,0 +1,58 @@
+/* Write code css here */
+/* Choose all h1 tags */
+h1 {
+    color: red;
+}
+
+/* Style the tag with id h1_1, ID should be unique */
+#h1_1 {
+    color: orange;
+}
+
+p {
+    color: green;
+}
+
+/* Style the tags with class text_blue, multiple tags can have the same class */
+.text_blue {
+    color: blue;
+}
+
+div {
+    color: blueviolet;
+}
+
+.text-brown {
+    color: brown;
+}
+
+#my-div {
+    color: pink;
+}
+
+/* style for all elements */
+* {
+    color: chocolate;
+}
+
+/* properties for text */
+#test-text {
+    font-size: large; 
+    font-style: italic;
+    font-family:'Arial';
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+/* Những thuộc tính - giá trị => định dáng khối nội dung (Box model) */
+
+#my-box {
+    background-color: pink;
+    width: 300px;
+    height: 170px;
+
+    border: 10px solid green;
+    border-radius:10px ;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
