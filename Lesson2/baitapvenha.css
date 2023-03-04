@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+#today_temp_1 {
+    font-size: 80px;
+    color: green;
+}
+
+#today_temp_2 {
+    font-size: 25px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 30px;
+    color: green;
+}
+#thermormeter::before {
+    content: "\f750";
+}
+#col3 p {
+    margin-right: -80px;
+}
+
+a:hover {
+    color: red;
+}
