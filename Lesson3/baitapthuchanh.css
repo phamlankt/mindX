@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+
+    height: 100%;
+}
+
+div {
+    border: 1px solid;
+}
+
+#wrapper {
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /* width: 45%; */
+    min-height: 90%;
+    float: left;
+
+}
+
+#box1 {
+    width: 40%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(72, 141, 202);
+}
+
+#box1-1 {
+    background-color: yellow;
+    font-size: 20px;
+    min-height: 10%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 4%;
+    
+    font-weight: bold;
+}
+
+#box1-2 {
+    padding-left: 15px;
+    background-color: pink;
+    font-size: 30px;
+    min-height: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 8%;
+}
+
+#box1-3 {
+    padding-left: 15px;
+    background-color: pink;
+    font-size: 30px;
+    min-height: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 8%;
+}
+
+button {
+    background-color: rgb(63, 63, 238);
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    /* height: 30px; */
+    width: 20%;
+    border-radius: 5px;
+}
+
+#box2 {
+    width: 50%;
+    background-color: grey;
+    position: relative;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+
+.box2-internal {
+    width: 30%;
+    height: 95%;
+    float: left;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 12px;
+    padding: 20px;
+}
+
+.box2-internal div {
+    min-height: 20%;
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#box2-m1 {
+    background-color: rgb(131, 219, 131);
+    margin-bottom: 30px;
+}
+
+#box2-m6 {
+    background-color: rgb(104, 46, 229);
+    margin-top: 30px;
+}
+
+#box2-m2 {
+    background-color: green;
+}
+
+#box2-muctieu {
+    background-color: yellow;
+    /* font-size: 16px; */
+}
+
+#box2-m5 {
+    background-color: rgb(206, 125, 125);
+
+}
+
+#box2-m3 {
+    background-color: rgb(14, 98, 124);
+    margin-bottom: 30px;
+}
+
+#box2-m4 {
+    background-color: rgb(95, 33, 33);
+    margin-top: 30px;
+}
