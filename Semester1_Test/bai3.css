@@ -1,0 +1,214 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E5E5E5;
+}
+body .wrapper {
+  position: absolute;
+  background-color: white;
+  border-radius: 16px;
+  width: 1213px;
+  top: 173px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 120px;
+}
+body .navigator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+body .navigator #users {
+  width: 91px;
+  height: 40px;
+  margin: 0;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 40px;
+  color: #151B32;
+}
+body .navigator .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+body .navigator .controls #search_box_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 327px;
+  height: 64px;
+  border: 1px solid #BFC8E6;
+  border-radius: 4px;
+}
+body .navigator .controls #search_box_wrapper #search_box {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+body .navigator .controls #search_box_wrapper #search_box #search1 {
+  position: absolute;
+  left: 12.5%;
+  right: 29.17%;
+  top: 12.5%;
+  bottom: 29.17%;
+}
+body .navigator .controls #search_box_wrapper #search_box #search2 {
+  position: absolute;
+  left: 62.5%;
+  right: 12.5%;
+  top: 62.5%;
+  bottom: 12.5%;
+}
+body .navigator .controls #search_box_wrapper #search_text {
+  width: 260px;
+  height: 60px;
+  border: none transparent;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #151B32;
+  opacity: 0.7;
+}
+body .navigator .controls #menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  border-radius: 4px;
+  list-style-type: none;
+}
+body .navigator .controls #menu div.menu_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  border-radius: 8px;
+  width: 100px;
+  height: 35px;
+}
+body .navigator .controls #menu div.menu_item p {
+  width: 89px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151B32;
+  opacity: 0.8;
+}
+body .navigator .controls #menu div.menu_item:hover {
+  background: #849FFF;
+}
+body .users {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px;
+  gap: 16px;
+}
+body .users .user {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  width: 327px;
+  height: 208px;
+  background: #FBFCFF;
+  border-radius: 16px;
+}
+body .users .user img {
+  width: 97px;
+  height: 97px;
+}
+body .users .user .user_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 160px;
+}
+body .users .user .user_info .name_address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0px 0px;
+  gap: 4px;
+  width: 125px;
+}
+body .users .user .user_info .name_address .name {
+  width: 180px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #151B32;
+}
+body .users .user .user_info .name_address .address {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 21px;
+  color: #151B32;
+}
+body .users .user .user_info .tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+body .users .user .user_info .tags span {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 6px;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 1px solid #BFC8E6;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #516FD5;
+}
+body .users .user:hover {
+  border: 1px solid #BFC8E6;
+  box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}

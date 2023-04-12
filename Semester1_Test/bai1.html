@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        * {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            width: 150px;
+            height: 40px;
+            /* margin: 20px; */
+            text-align: center;
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: space-between;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        #ketqua {
+            font-size: 20px;
+        }
+
+        ul li {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            Chương trình có kiểm tra các trường thông tin xem:
+            <li>Người dùng có điền thông tin hay không.</li>
+            <li>Người dùng có điền số hay không.</li>
+            <li>Số a có nhỏ hơn số b hay không.</li>
+        </ul>
+
+        <input type="text" name="" id="numbera" class="reset" placeholder="Nhập vào số a (*)">
+        <input type="text" name="" id="numberb" class="reset" placeholder="Nhập vào số b (*)">
+        <input type="button" id="sum_btn" value="Tính tổng">
+        <input type="button" id="reset_btn" value="Reset">
+        <label for="" id="ketqua"><strong>Tổng các số nguyên tố từ a đến b là: </strong></label>
+    </div>
+
+    <script src="bai1.js"></script>
+</body>
+
+</html>
