@@ -46,21 +46,6 @@ const users = [
 ]
 
 
-// for (let user of users) {
-//     // console.log(user.name)
-//     for (let key in user) {
-
-//         if (key == 'tags') {
-//             for (let tag of user[key])
-//                 console.log("tag:" + tag)
-//         }
-//         else {
-//             console.log(key + ":" + user[key]);
-//         }
-//     }
-//     console.log("----------------------")
-// }
-
 // rendering HTML for each user (without tags information)
 let $users = document.querySelector('.users');
 $users.innerHTML = users.map(({ user_id, img, name, address }) => {
@@ -95,3 +80,25 @@ for (let user of users) {
 
     }
 }
+
+function openmenu(x) {
+    document.getElementById('menu_small').style.display = 'block';
+}
+
+function closemenu(x) {
+    document.getElementById('menu_small').style.display = 'none';
+}
+
+// bắt sự kiện bấm chuột vào hamburger menu
+
+window.addEventListener('click', function (e) {
+    const menu_small = document.querySelector("#menu_small");
+    const isMenuOpen = menu_small.style.display;
+    console.log(e.target.getElementById)
+    if (isMenuOpen == "block") {
+        closemenu();
+    }else if (this.document.getElementById('menu_burger').contains(e.target)){
+        openmenu()
+    }
+
+});
